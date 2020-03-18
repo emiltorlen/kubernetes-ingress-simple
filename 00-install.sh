@@ -16,3 +16,6 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/2140ac876ef134e0ed5af15c65e414cf26827915/Documentation/kube-flannel.yml
 kubectl taint nodes --all node-role.kubernetes.io/master-
 kubectl get --all-namespaces endpoints #list endpoints
+
+# curl -kL http://<IP>/banana
+# should respond banana
