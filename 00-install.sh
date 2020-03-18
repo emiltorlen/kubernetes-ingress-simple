@@ -1,3 +1,4 @@
+# https://www.redpill-linpro.com/techblog/2019/04/04/kubernetes-setup.html
 sudo apt-get update
 sudo apt-get install docker.io -y
 sudo systemctl enable docker
