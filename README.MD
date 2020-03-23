@@ -5,5 +5,12 @@
 
 ## Creates a nginx and two dummy containers, apple and banana
 
-curl -k <endpoint>/apple
-curl -k <endpoint>/banana
+Test that it works
+
+Responds apple
+
+```curl -k <endpoint>/apple```
+
+Responds banana
+
+```curl -k <endpoint>/banana```
