@@ -5,3 +5,5 @@ kubectl apply -f banana.yaml
 kubectl create -f ingress.yaml
 kubectl get pods --all-namespaces -l app=ingress-nginx
 
+sudo service kubelet restart
+kubectl get --all-namespaces endpoints
